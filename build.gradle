@@ -25,16 +25,20 @@ repositories {
 
 
 dependencies {
+    compile("io.jsonwebtoken:jjwt:0.7.0")
+    compile('com.github.ben-manes.caffeine:caffeine')
+    compile('com.github.ben-manes.caffeine:caffeine')
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-cache')
-	compile('org.springframework.boot:spring-boot-starter-data-elasticsearch')
+//	compile('org.springframework.boot:spring-boot-starter-data-elasticsearch')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-redis')
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.springframework.kafka:spring-kafka')
+//	compile('org.springframework.kafka:spring-kafka')
 	runtime('org.postgresql:postgresql')
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.springframework.security:spring-security-test')
 }
