@@ -23,7 +23,7 @@ public class CaffeineConfig {
         return caffeineCacheManager;
     }
 
-    public Caffeine<Object, Object> caffeineBuilder(){
+    public Caffeine<Object, Object> caffeineBuilder() {
         return Caffeine.newBuilder()
                 .initialCapacity(100)
                 .maximumSize(1000)
