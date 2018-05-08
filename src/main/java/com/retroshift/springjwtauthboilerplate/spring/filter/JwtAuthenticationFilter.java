@@ -11,7 +11,6 @@ import java.io.IOException;
 
 public class JwtAuthenticationFilter extends CustomUsernamePasswordAutheticationFilter {
 
-
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
         return super.attemptAuthentication(request, response);

@@ -36,6 +36,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile group: 'org.springframework.mobile', name: 'spring-mobile-device', version: '1.1.5.RELEASE'
+
 //	compile('org.springframework.kafka:spring-kafka')
 	runtime('org.postgresql:postgresql')
 
