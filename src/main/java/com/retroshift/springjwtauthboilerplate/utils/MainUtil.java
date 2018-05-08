@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.util.Map;
 
 public class MainUtil {
-    public static void writeToResponseBody(Map<Object, Object> o,
+    public static void writeToResponseBody(Map<String, Object> o,
                                            HttpServletResponse response) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         response.addHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE);
